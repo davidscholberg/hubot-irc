@@ -20,7 +20,7 @@
     "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "dependencies": {
-    "irc": "matrix-org/node-irc",
+    "irc": "davidscholberg/node-irc#flood-protection-fix",
     "log": "1.4.0"
   },
   "devDependencies": {
